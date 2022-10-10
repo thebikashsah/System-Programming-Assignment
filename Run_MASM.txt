@@ -1,0 +1,19 @@
+DOS is a operating system.
+DOSBox is a emulator that enables us to run software made for DOS in our system.
+
+MASM is the assembler/editor and dosbox provides interface to interact with the assmbler.
+Step:
+1. Open DOSBOX
+2. type - mount c ~/dosbox/8086
+3. type - c:
+
+4. edit add.asm
+
+ 
+ ------
+ Put the .asm file in the 8086 folder.
+ masm filename.asm (Generated 3 files - .obj(object file), .lst(list file), .crf(cross referene file))
+
+ link filename.obj 
+ filename.exe
+ 
